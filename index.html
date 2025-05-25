@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-br">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Museu Nacional</title>
+                
+        <!-- Normalize CSS -->
+        <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+        
+        <!-- Estilo customizado -->
+        <link rel="stylesheet" type="text/css" href="css/estilo.css" />
+        
+        <!--[if lt IE 9]>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+		<![endif]-->
+    </head>
+    
+    <body>
+    	<div id="container"> <!-- Início container -->
+        	<header>
+            	<div id="logo">
+                    <h2 class="imagem-arredondada"><img src="img/coloque o texto em portugues.png" width="100%" height="100%" alt=""></h2>
+                	<!--<h1><a href=""><img src="img/coloque o texto em portugues.png" alt="">Museu Nacional</a></h1>-->
+                    <br>
+                </div>
+                
+                <nav>
+                	<ul>
+                    	<li><a href="#">Home</a></li>
+                        <li><a href="#">Cardápio</a></li>
+                        <li><a href="#">Delivery</a></li>
+                        <li><a href="#">História</a></li>
+                        <li><a href="#">Lojas</a></li>
+                        <li><a href="#">Fotos</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </nav>                
+            </header>
+            
+            <div id="principal"> <!-- Início principal -->
+            	<div id="conteudo">
+                	<section id="capa"> <!-- Início section capa -->
+                    	<img src="img/confeitaria-colombo.jpg" width="100%" />
+                    </section> <!-- Fim section capa -->
+                    
+                    <section id="postagens"> <!-- Início section postagens -->
+                    	<article id="video">
+                        	<h3>Café com memória afetiva</h3>
+                            <!--<iframe width="310" height="170" src="https://www.youtube.com/embed/RGUYb-hivrc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>-->
+                            <video width="310" height="170" src="img/Design sem nome (1).mp4" controls autoplay loop muted></video>
+                        </article>
+                        
+                        <article id="mapa">
+                        	<h3>Encontre seus sonhos</h3>
+                            <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d34951.496674815695!2d-43.216686869309505!3d-22.956725232279663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bd53b79e1f099%3A0x73e72ea34289d9a6!2sConfeitaria%20Colombo%20Caf%C3%A9%20do%20Forte!5e0!3m2!1spt-BR!2sbr!4v1748108795939!5m2!1spt-BR!2sbr" width="310" height="170" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </article>
+                        
+                        <article id="exposicoes">
+                        	<h3>Cardápio</h3>
+                            <ul>
+                            	<li><a href="#">Tortas</a></li>
+                                <li><a href="#">Doces</a></li>
+                                <li><a href="#">Bolos</a></li>
+                                <li><a href="#">Café gourmet</a></li>
+                                <li><a href="#">Chá</a></li>                                
+                            </ul>
+                        </article>
+                        
+                        <article id="historia">
+                        	<h3>Desde 1894</h3>
+                            <p>Mais de 100 Anos de História
+                                Fundada em 1894 a Confeitaria Colombo faz história no Rio de Janeiro.
+                                
+                                Por mais de um século a Confeitaria Colombo é uma das mais respeitadas casas comerciais do país.
+                                Hoje somos patrimônio cultural e artístico da cidade. Não se pode contar a história da Confeitaria Colombo sem associá-la a história urbana do Rio de Janeiro.</p>
+                            <a href="#"><strong>Leia mais</strong></a>
+                        </article>
+                    </section> <!-- Fim section postagens -->
+                </div>
+                
+                <aside>
+                	<section id="depoimento"> 
+                    	<img src="img/bolo-de-padaria-1.jpg" width="100%" />
+                    </section>
+                    
+                    <section id="visita"> <!-- Início section visita -->
+                    	<h4>Faça sua reserva</h4>
+                        <form>
+                        	<fieldset>
+                            	<legend>Selecione uma data</legend>
+                                
+                                <label for="data">Data</label>
+                                <input class="campo" type="text" id="data" placeholder="dd/mm/aaaa"/>
+                                
+                                <label for="qtd">Qtd pessoas</label>
+                                <input class="campo" style="width: 30px;" type="text" id="qtd" placeholder="1"/>
+                            </fieldset>
+                            
+                            <input class="botao" type="submit" value="Verificar disponibilidade" />
+                        </form>
+                    </section> <!-- Fim section visita -->
+                    
+                    <section id="galeria"> <!-- Início section galeria -->
+                    	<h4>Galeria de fotos</h4>
+                        <a href=""><img src="img/cacau_c4.jpg" height="93" width="93" alt="Descrição imagem" /></a>
+                        <a href=""><img src="img/cappuccino.jpg" height="93" width="93" alt="Descrição imagem"/></a>
+                        <a href=""><img src="img/DSC_4706-FILICO-FILICO.jpg" height="93" width="93" alt="Descrição imagem"/></a>
+                        <a href=""><img src="img/confeitaria-colombo (1).jpg" height="93" width="93" alt="Descrição imagem"/></a>
+                    </section> <!-- Fim section galeria -->
+                </aside>
+                
+                <footer style="clear: both">
+                	<p>
+                    	<a href="#">Home</a>
+                        <a href="#">Cardápio</a>
+                        <a href="#">Delivery</a>
+                        <a href="#">História</a>
+                        <a href="#">Lojas</a>
+                        <a href="#">Fotos</a>
+                        <a href="#">Contato</a>
+                    </p>
+                    
+                    <p> &copy; 2019 <a href="#">Cafeteria Colombo</a>- Todos os direitos reservados.</p>
+                </footer>
+                
+            </div> <!-- Fim principal -->
+        </div> <!-- Fim container -->
+    </body>
+</html>
